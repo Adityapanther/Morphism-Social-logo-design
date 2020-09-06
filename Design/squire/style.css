@@ -20,7 +20,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #cecece;
+  background-color: #ffffff;
 }
 
 .container {
@@ -64,8 +64,8 @@
           align-items: center;
   background-color: white;
   border-radius: 5px;
-  -webkit-box-shadow: -2px -2px 0px rgba(228, 228, 228, 0.692), 1px 2px 0px rgba(207, 207, 207, 0.486);
-          box-shadow: -2px -2px 0px rgba(228, 228, 228, 0.692), 1px 2px 0px rgba(207, 207, 207, 0.486);
+  -webkit-box-shadow: -3px -2px 0px rgba(228, 228, 228, 0.692), 2px 3px 0px rgba(207, 207, 207, 0.486);
+          box-shadow: -3px -2px 0px rgba(228, 228, 228, 0.692), 2px 3px 0px rgba(207, 207, 207, 0.486);
 }
 
 .container .social-container .icon .inside-circle {
