@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 18px;
   text-decoration: none;
   list-style-type: none;
@@ -18,13 +20,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #cecece;
 }
 
 .container {
   width: 98%;
   height: 10em;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .container .social-container {
@@ -50,17 +53,43 @@
 .container .social-container .icon {
   width: 70px;
   height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: white;
   border-radius: 5px;
-  -webkit-box-shadow: -3px -2px 5px rgba(207, 207, 207, 0.486), 1px 2px 5px rgba(228, 228, 228, 0.692);
-          box-shadow: -3px -2px 5px rgba(207, 207, 207, 0.486), 1px 2px 5px rgba(228, 228, 228, 0.692);
+  -webkit-box-shadow: -2px -2px 0px rgba(228, 228, 228, 0.692), 1px 2px 0px rgba(207, 207, 207, 0.486);
+          box-shadow: -2px -2px 0px rgba(228, 228, 228, 0.692), 1px 2px 0px rgba(207, 207, 207, 0.486);
+}
+
+.container .social-container .icon .inside-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: #fff;
   background-image: url("./images/all_in_one.jpg");
 }
 
 .container .facebook {
-  background-position: -10px -15px;
+  background-position: -15px -20px;
+}
+
+.container .instagram {
+  background-position: -106px -280px;
+}
+
+.container .twitter {
+  background-position: -195px -18px;
+}
+
+.container .linkedin {
+  background-position: -286px -195px;
 }
 /*# sourceMappingURL=style.css.map */
