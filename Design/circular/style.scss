@@ -23,8 +23,44 @@
             width: 100%;
             height: 100%;
             background-color: #fff;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .icon{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: brown;
+                background-image: url("../squire/images/all_in_one.jpg");
+                background-size: 600%;
+                background-clip: border-box;
+                border: 5px solid #fff;
+                box-shadow: -3px -2px 3px 0px rgba(173, 173, 173, 0.658),
+                1px 2px 5px 0px rgba(153, 153, 153, 0.822);
+            }
+
+            
         }
+
+
     }
+}
+
+.facebook{
+    background-position: -18px -20px;
+}
+
+.twitter {
+    background-position: -228px -22px;
+}
+.instagram {
+    background-position: -124px -328px;
+}
+.linkedin {
+    background-position: -334px -645px;
 }
 
 
