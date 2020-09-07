@@ -8,4 +8,4 @@
 
 ## Squire Social icon screenshot
 
-<img src="./screenShots/circular_morphism.png">
+<img src="./screenShots/squire_morphism.png">
